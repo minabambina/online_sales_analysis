@@ -12,12 +12,6 @@ product_manager.add_product(product1)
 product_manager.add_product(product2)
 product_manager.add_product(product3)
 
-print("Product Inventory:")
-product_manager.display_all_products()
-
-total_value = product_manager.total_inventory_value()
-print(f"\nTotal Inventory Value: ${total_value:.2f}")
-
 cart = Cart()
 
 cart.add_to_cart(product1)
